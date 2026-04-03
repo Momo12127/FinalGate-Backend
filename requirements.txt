@@ -1,14 +1,13 @@
-# FastAPI stack - Python 3.13 PROVEN
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-python-multipart==0.0.6
+# Core stack - NO pydantic-core dependency
+fastapi==0.68.2
+uvicorn[standard]==0.15.0
+python-multipart==0.0.5
 
-# Supabase - stable
-supabase==2.4.0
+# Supabase (uses pydantic v1 internally)
+supabase==1.2.0
 
-# Python 3.13 SAFE - PRE-BUILT WHEELS ONLY
-pydantic==2.5.2
-typing_extensions==4.9.0
+# Explicitly pin pydantic v1 (pure Python)
+pydantic==1.10.13
 
-# No Rust compilation needed
-aiofiles==23.2.1
+# Utilities
+python-dotenv==1.0.0
