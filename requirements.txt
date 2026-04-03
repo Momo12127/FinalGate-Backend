@@ -1,8 +1,6 @@
-# Python 3.13 + FastAPI v2 STACK
 fastapi==0.104.1
-uvicorn==0.24.0
+uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 supabase==2.4.0
-httpx==0.25.2  # For NVIDIA API calls
+httpx==0.25.2
 pydantic==2.5.2
-pydantic-settings==2.0.3
