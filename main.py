@@ -1,7 +1,7 @@
 import os
 import uuid
 import asyncio
-import aiohttp
+import httpx
 from datetime import datetime
 from typing import Optional, Dict
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Request
