@@ -1,13 +1,6 @@
-# Core stack - NO pydantic-core dependency
 fastapi==0.68.2
-uvicorn[standard]==0.15.0
+uvicorn==0.15.0  # No [standard] = no httptools/watchfiles
 python-multipart==0.0.5
-
-# Supabase (uses pydantic v1 internally)
 supabase==1.2.0
-
-# Explicitly pin pydantic v1 (pure Python)
 pydantic==1.10.13
-
-# Utilities
 python-dotenv==1.0.0
