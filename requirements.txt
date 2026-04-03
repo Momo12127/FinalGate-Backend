@@ -4,4 +4,3 @@ aiohttp==3.9.5
 supabase==2.4.0
 python-multipart==0.0.9
 pydantic==2.5.1
-pydantic-core==2.14.0
